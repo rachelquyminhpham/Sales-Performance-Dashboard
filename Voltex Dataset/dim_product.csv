@@ -1,0 +1,29 @@
+Product_ID,Product_Name,Product_Category,Product_Brand,Product_ValueTier,Product_UnitPrice,Product_UnitCOGS
+VTX-AC-001,Voltex Shield Universal,Accessories,Voltex,Budget,24,8.94
+VTX-AC-002,Voltex Connect Cable 6ft,Accessories,Voltex,Budget,19,7.04
+VTX-AC-003,Voltex Guard Screen Protector,Accessories,Voltex,Budget,15,5.66
+VTX-AC-004,Voltex Charge Wireless Pad,Accessories,Voltex,Budget,36,13.62
+VTX-AC-005,Voltex Armor Laptop Sleeve,Accessories,Voltex,Budget,31,11.75
+VTX-AU-001,Voltex SoundBud,Audio Devices,Voltex,Budget,124,61.66
+VTX-AU-002,Voltex AirBud,Audio Devices,Voltex,Budget,87,43.03
+VTX-AU-003,Voltex BeatMax,Audio Devices,Voltex,Budget,162,80.76
+VTX-AU-004,Voltex SoundCore,Audio Devices,Voltex,Budget,99,49.23
+VTX-AU-005,Voltex AcousticPro,Audio Devices,Voltex,Standard,502,250.03
+VTX-AU-006,Voltex SilenceMax,Audio Devices,Voltex,Standard,413,205.68
+VTX-LP-001,Voltex ProBook Elite,Laptops,Voltex,Premium,1380,749.9
+VTX-LP-002,Voltex ProBook Max,Laptops,Voltex,Premium,1502,864.19
+VTX-LP-003,Voltex ProBook Plus,Laptops,Voltex,Premium,1255,720.22
+VTX-LP-004,Voltex EverBook,Laptops,Voltex,Standard,881,507.95
+VTX-LP-005,Voltex FlexBook,Laptops,Voltex,Standard,692,396.61
+VTX-LP-006,Voltex GameBook Ultra,Laptops,Voltex,Premium,2010,1156.33
+VTX-LP-007,Voltex GameBook Pro,Laptops,Voltex,Premium,1632,936.45
+VTX-SP-001,Voltex Go,Smartphones,Voltex,Standard,249,128.64
+VTX-SP-002,Voltex Pulse,Smartphones,Voltex,Standard,312,160.89
+VTX-SP-003,Voltex Wave,Smartphones,Voltex,Standard,375,192.97
+VTX-SP-004,Voltex Apex Pro Max,Smartphones,Voltex,Premium,1484,753.64
+VTX-SP-005,Voltex Nova Ultra,Smartphones,Voltex,Premium,1367,695.79
+VTX-SP-006,Voltex Zenith Pro,Smartphones,Voltex,Premium,1242,631.56
+VTX-SP-007,Voltex Apex,Smartphones,Voltex,Standard,874,451.21
+VTX-SP-008,Voltex Nova,Smartphones,Voltex,Standard,563,290.22
+VTX-SP-009,Voltex Zenith,Smartphones,Voltex,Standard,751,387.42
+VTX-SP-010,Voltex Prime,Smartphones,Voltex,Standard,876,451.59

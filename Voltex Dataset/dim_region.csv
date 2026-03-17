@@ -1,0 +1,21 @@
+Region_ID,Region_Name,Region_State,Region_DistributionCenter
+R01,West,Arizona,DC-West-CA
+R02,West,California,DC-West-CA
+R03,North,Connecticut,DC-North-NY
+R04,East,Delaware,DC-East-VA
+R05,South,Florida,DC-South-TX
+R06,South,Georgia,DC-South-TX
+R07,East,Kentucky,DC-East-VA
+R08,East,Maryland,DC-East-VA
+R09,North,Massachusetts,DC-North-NY
+R10,West,Nevada,DC-West-CA
+R11,North,New Jersey,DC-North-NY
+R12,North,New York,DC-North-NY
+R13,South,North Carolina,DC-South-TX
+R14,West,Oregon,DC-West-CA
+R15,North,Pennsylvania,DC-North-NY
+R16,South,Tennessee,DC-South-TX
+R17,South,Texas,DC-South-TX
+R18,East,Virginia,DC-East-VA
+R19,West,Washington,DC-West-CA
+R20,East,West Virginia,DC-East-VA

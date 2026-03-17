@@ -1,0 +1,13 @@
+Shipping_ID,Shipping_Partner,Shipping_Type
+SH-Bulk-QuickShip,QuickShip,Bulk
+SH-Bulk-ReliableLog,ReliableLog,Bulk
+SH-Bulk-ShipFast,ShipFast,Bulk
+SH-Express-QuickShip,QuickShip,Express
+SH-Express-ReliableLog,ReliableLog,Express
+SH-Express-ShipFast,ShipFast,Express
+SH-Next-Day-QuickShip,QuickShip,Next-Day
+SH-Next-Day-ReliableLog,ReliableLog,Next-Day
+SH-Next-Day-ShipFast,ShipFast,Next-Day
+SH-Standard-QuickShip,QuickShip,Standard
+SH-Standard-ReliableLog,ReliableLog,Standard
+SH-Standard-ShipFast,ShipFast,Standard

@@ -1,0 +1,5 @@
+Payment_ID,Payment_Method
+PAY01,PayPal
+PAY02,Credit Card
+PAY03,Debit Card
+PAY04,Bank Transfer
