@@ -1,60 +1,140 @@
-# Sales Performance Report (Power BI Dashboard)
-Dashboard Link: 
-## 1. Executive Summary:
+# Voltex Sales Performance Report (Power BI Dashboard)
+
+# 1.Executive Summary:
+
+The business is experiencing a clear slowdown following its May–June peak, with consistent month-over-month declines in orders, revenue, and profit, indicating weakening demand and reduced sales efficiency. While customer satisfaction remains stable, elevated return rates continue to pressure profitability.
+
+Operational performance is broadly stable; however, a significant disruption in July exposed vulnerabilities in delivery reliability, directly driving an increase in returns. This highlights inefficiencies in shipping partner allocation and regional transit performance, confirming that operational consistency, rather than capacity, is the primary constraint.
+
+At the product level, growth is concentrated in high-revenue but high-return categories, creating margin risk and profit leakage.
+Customer analysis provides clearer direction: high-value segments (notably females aged 25–34) drive the majority of revenue and show strong preference for smartphones, while overall repeat purchase behavior is declining. Sentiment remains largely positive, but slight declines in ratings suggest early signals of dissatisfaction. This indicates that while the business understands who its customers are and what they value, it is not fully converting this insight into sustained engagement and retention.
+
+Overall, the slowdown is driven by a combination of weakening demand, operational inefficiencies, product-level profitability challenges, and under-leveraged customer insights, requiring coordinated action across commercial, operational, and customer strategies.
+
+# 2.Key insights:
+## 2.1. Business Health (Growth overview) 
+<img width="1069" height="596" alt="Screenshot 2026-03-23 at 3 53 22 pm" src="https://github.com/user-attachments/assets/a076b905-9e93-46c1-b761-da1659ce9eef" />
+
+Orders, revenue, and profit show a consistent downward trend post-May, with the latest period underperforming across all core KPIs.
+
+Month-over-month comparisons indicate ongoing contraction rather than short-term fluctuation, with no clear seasonality observed.
+
+Return rate remains elevated (7.77%), despite slight improvement, indicating persistent inefficiency.
+
+Customer rating is stable (~3.8/5), suggesting no immediate reputational risk.
+
+On-time delivery remains high (~0.96) but shows early signs of decline, indicating emerging service pressure.
+
+## 2.2. Operational Performance:
+<img width="889" height="500" alt="Screenshot 2026-03-23 at 4 30 36 pm" src="https://github.com/user-attachments/assets/7d54394f-d12d-4990-8396-9fdaae41e50a" />
+
+### Operational performance overview
+
+Operational performance remains stable, with OTD at 0.96, though a -0.7% MoM decline indicates emerging service risk.
+Lead time pressure is increasing, reflected in rising Processing Hours (+0.6%) and Delivery Days (+0.2%), suggesting early capacity constraints.
+Return rate shows short-term improvement (-1.1% MoM), however the absolute level (7.77%) remains elevated, indicating a persistent structural issue.
+Cost efficiency is largely unchanged, with OpEx per Order (+0.1%), suggesting limited translation of operational performance into cost savings.
+
+### Shipping partner performance
+
+ReliableLog experienced a significant service disruption in July, with OTD dropping sharply and delivery time peaking (~5.5 days), indicating a temporary operational failure.
+This disruption directly aligns with the spike in refund rates (~13–14%), confirming delivery performance as a key driver of returns.
+QuickShip and ShipFast remained stable across all metrics, maintaining consistent OTD (~1.0) and delivery times (~3 days), demonstrating stronger reliability.
+Order volume is heavily concentrated with ShipFast, despite comparable performance across partners, suggesting suboptimal allocation of shipments.
+
+### Return cost concentration (Pareto Analysis)
+
+Return costs are highly concentrated, with a small number of states contributing the majority of total cost.
+Massachusetts, Florida, and New York represent the primary cost drivers and should be prioritized for intervention.
+Lower-ranked states contribute marginally, offering limited return on optimization efforts.
+Focusing on the top 20–30% of regions will yield the most significant cost reduction impact.
+
+### Fulfillment performance by region
+
+Transit time is the dominant contributor to total lead time (approximately 60–70%), outweighing warehouse-related stages.
+The North region shows the weakest performance (75.33 hours), driven by the highest transit time (49.77 hours).
+The East region demonstrates the strongest performance (69.13 hours), serving as a benchmark for operational efficiency.
+Packing and pickup processes are relatively optimized, contributing less to overall delays.
+Key implication: The primary constraint lies within the logistics network rather than warehouse operations.
 
 
-## 2. Growth Performance:
-<img width="875" height="483" alt="Screenshot 2026-03-18 at 3 22 04 pm" src="https://github.com/user-attachments/assets/4c9f8f11-1fb0-4b75-9fce-c8655738449c" />
+## 2.3. Product Performance Analysis
+<img width="894" height="494" alt="Screenshot 2026-03-23 at 4 36 14 pm" src="https://github.com/user-attachments/assets/cc507d69-359f-4bd4-b371-c82bf6f9dff8" />
 
-Total orders, revenue, and profit show a downward trend over the period, with peak performance around May–June followed by a consistent decline toward September.
+### Overview
 
-The latest period underperforms the previous month across all core KPIs: Orders (-6.6%), Revenue (-6.3%), Profit (-5.7%), indicating short-term contraction.
+Revenue and units declined (~6% MoM), indicating weakening demand.
+Return rate improved slightly but remains high (7.77%), suggesting ongoing quality issues.
+Profit margin increased marginally, partially offsetting volume decline.
+Ratings are stable but trending downward, indicating early satisfaction risk.
 
-The return rate stands at 7.77%, which is moderately elevated for e-commerce; however, the month-over-month improvement (-1.1%) suggests corrective measures may be effective.
+### Top performing products
 
-Customer satisfaction remains relatively stable (3.81/5) with minimal decline (-0.1%), indicating no immediate reputational risk.
+Volume is driven by accessories and smartphones, with no heavy reliance on a single product.
+Revenue is concentrated in premium smartphones, making them the primary value driver.
+High-return products overlap with high-revenue items, creating profit leakage risk.
+Accessories deliver the strongest margins, while laptops underperform on profitability.
+High-selling products are not always highest rated, indicating a gap between demand and satisfaction.
 
-May 2024 represents the strongest performance, driven by peak revenue ($4.76M) and profit ($1.26M) with positive growth (+8.52% MoM). July 2024 is the weakest month, with a significant decline in profit (-50.91% MoM) and the lowest profit contribution (11%), despite moderate order volume.
+### Category performance
 
-No clear seasonality pattern is evident within the observed period.There is a consistent negative MoM pattern across revenue-driving metrics, signaling weakening demand or reduced sales efficiency.
+Smartphones dominate both volume and revenue but show a decline after June, driving overall slowdown.
+Accessories maintain stable volume but contribute limited revenue due to lower price points.
+Laptops and audio devices remain relatively flat, with limited growth contribution.
+Return rates spiked across all categories in July, indicating a systemic issue.
+Smartphones and laptops maintain the highest return levels, representing key risk areas.
+Profit margins dropped sharply in July and only partially recovered.
+Accessories remain the most resilient category in both margin and return performance.
+Smartphones show the highest volatility, suggesting inconsistency in product experience.
 
-The business maintains a high completion rate (~92%) and low refund rate (~8%), reflecting strong order fulfillment and post-purchase stability.
+### Revenue vs return risk
 
-## 3. Operational Performance:
+Higher revenue products tend to have higher return rates, indicating growth is tied to higher risk.
 
-<img width="881" height="496" alt="Screenshot 2026-03-18 at 3 49 53 pm" src="https://github.com/user-attachments/assets/89258ed2-710e-4881-a49a-e745faddd69a" />
+### Product tier performance
+Standard tier drives most revenue but has the highest return rate.
+Budget tier is the most efficient, with the highest margin and lowest returns.
+Premium tier generates strong revenue but operates at lower margins, indicating cost pressure.
 
-The slowdown observed at the growth level is reflected in operational efficiency, where execution remains reliable but is becoming less efficient over time.
+## 2.4. Understanding Customer Behaviour:
+<img width="1065" height="595" alt="Screenshot 2026-03-23 at 3 56 01 pm" src="https://github.com/user-attachments/assets/c72fb87e-b6af-4e14-b621-55fc1e8c4820" />
 
-On-time delivery remains high at 96%, confirming that the system is still functioning effectively. However, underlying metrics show gradual deterioration in speed and cost efficiency, with increases in delivery time, processing hours, and OpEx per order. This suggests that the operation is absorbing more resources to maintain the same service level.
+Customer base declined (-6.2% MoM), acquisition/retention pressure.
 
-Performance across shipping partners is relatively uniform, indicating that inefficiencies are systemic rather than partner-specific. At the same time, fulfillment data shows that transit time dominates total lead time, making it the primary driver of delays and a key area for optimization.
+Spend per customer stable, but repeat rate decreased.
 
-Return cost analysis further reinforces operational inefficiency, with a small number of regions contributing disproportionately to total return costs, highlighting clear, targeted opportunities for intervention.
+Purchase frequency flat; ratings slightly declining.
 
-In summary, operations remain stable but are losing efficiency, which, combined with slowing demand, creates a compounded risk to future profitability. Addressing cycle time, cost per order, and high-return regions will be critical to restoring performance.
+25–34 females are the highest-value segment, primarily purchasing smartphones.
 
-## 4. Product Performance Analysis
-Product performance reveals a highly concentrated revenue structure, where Smartphones dominate (~55% of total revenue), followed by Laptops (~33%), while Audio Devices and Accessories contribute marginally. This indicates strong dependence on a single category, increasing exposure to category-specific risks.
-At the product level, top performers such as Voltex Prime and Voltex Apex drive the highest revenue, confirming that growth is led by a small number of flagship SKUs rather than a broad portfolio.
-However, performance is not purely driven by revenue. Several high-revenue products also exhibit elevated return rates (≈10%+), particularly within core categories, indicating potential quality or expectation gaps that directly erode profitability.
-Customer perception remains inconsistent across products. While some accessories and audio products achieve higher ratings (~4.0), core revenue-driving products show only moderate satisfaction (~3.5–3.8), suggesting that high sales are not fully supported by strong customer experience.
-From a profitability perspective, Budget-tier products deliver the highest margins (~27%), outperforming Premium (~20%) and Standard (~23%), despite contributing less to total revenue. This highlights a misalignment between revenue concentration and margin efficiency.
-At the portfolio level, the revenue vs return-risk analysis confirms a trade-off, where high-revenue products tend to cluster around higher return rates, reinforcing the need to balance growth with product quality and risk control.
-Overall, the product portfolio is revenue-strong but structurally imbalanced, with over-reliance on a few high-volume products that carry higher return risk and only moderate customer satisfaction. Future performance will depend on optimizing the mix toward high-margin, low-return products while improving the quality of core revenue drivers.
+Smartphones are the most preferred category across all segments, followed by laptops.
 
-## 5. Understanding Customer Behaviour:
-<img width="890" height="498" alt="Screenshot 2026-03-18 at 3 51 18 pm" src="https://github.com/user-attachments/assets/1fa22397-f8fd-4b33-96f4-89f60f3a4bbe" />
+Audio and accessories have consistently lower preference.
 
-(THIS is what employers really care about)
-Category A is the main revenue driver but has rising returns
-Region X shows strong growth potential
-Repeat customers are significantly more valuable
-Certain segments have high return risk
+Positive sentiment dominates across all genders.
 
-## 7. Recommendations: 
-Tie directly to insights
-Increase marketing on high-performing categories
-Improve quality/control for high-return products
-Target high-value customer segments
-Introduce retention strategies for repeat customers
+Negative sentiment remains low but should be monitored.
+
+# 3.Recommendations: 
+Conduct a targeted diagnostic on the July performance decline to identify root causes across product mix, pricing, and channels.
+Prioritise and scale high-performing segments observed in May–June to recover revenue and profit momentum.
+Implement focused return reduction initiatives on high-return categories to improve margin efficiency.
+Review pricing and cost structures in underperforming months to protect profitability.
+Leverage strong delivery performance as a value proposition to support demand generation and customer acquisition.
+
+## For operation team
+Rebalance shipment allocation toward consistently reliable partners to reduce service risk.
+Establish strict SLA monitoring (OTD, delivery variance, refund rate) with real-time alerts for early issue detection.
+Prioritize transit time optimization, particularly in underperforming regions, to reduce overall lead time.
+Conduct root cause analysis on July disruption and implement contingency plans to prevent recurrence.
+Focus operational improvements on high-impact regions and partners driving the majority of delays and returns.
+
+### For product managers
+Reallocate inventory toward high-demand smartphones and accessories; reduce exposure to low-growth categories.
+Prioritise quality improvement on high-revenue, high-return products to reduce profit leakage.
+Optimise pricing for premium products with weak margins; protect margins in accessories.
+
+### For customer success team
+Focus retention efforts on high-value segments (25–34, especially females).
+Introduce loyalty and repeat purchase incentives to address declining repeat rate.
+Investigate July experience drop and target dissatisfaction drivers to prevent churn.
